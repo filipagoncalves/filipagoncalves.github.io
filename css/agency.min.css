@@ -68,7 +68,7 @@ a.active, a:active, a:focus, a:hover {
 .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open .dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #00b08e ;
-    border-color: #f6bf01
+    border-color: #00be9b
 }
 
 .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
@@ -625,7 +625,7 @@ ul.social-buttons li a:hover {
 }
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em
+    font-size: 2.7em
 }
 .portfolio-modal .modal-content p {
     margin-bottom: 30px
