@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl:hover {
     }
 }
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg_original2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -228,7 +228,7 @@ header .intro-text .intro-lead-in {
     /*font-style: italic;*/
     font-size: 22px;
     line-height: 28px;
-    margin-bottom: 25px
+    margin-bottom: 5px
 }
 
 header .intro-text .intro-lead-in span{
@@ -243,9 +243,15 @@ header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
-    margin-bottom: 25px
+    margin-bottom: 165px
+}
+@media (min-width: 565px) {
+header .intro-text .intro-heading {
+    margin-bottom: 35px
+}
+
 }
 @media (min-width: 768px) {
     header .intro-text {
@@ -279,6 +285,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px
     }
 }
+
 #portfolio .portfolio-item .portfolio-caption p,
 section h3.section-subheading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -691,4 +698,7 @@ img::selection {
 }
 img::-moz-selection {
     background: 0 0
+}
+.start{
+    /*top: -20px;*/
 }
